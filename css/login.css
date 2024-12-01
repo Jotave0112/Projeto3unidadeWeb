@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #48f3ce, #fa5e88, #48f3ce);
+}
+
+.Background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 850px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 30px 20px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Login {
+    color: #152737;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #9c9999;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input{
+    margin-right: 150px;
+}
+
+.Email{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Senha{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #4b79a1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    width: 94%;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #4b79a1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    width: 94%;
+    border: none;
+}
+
+.button:hover {
+    background-color: #041422;
+}
+
+.button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 4%;
+}
+
+.button{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #4b79a1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%; 
+    margin: 10px auto 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.texto{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #414752;
+    margin-top: -3%;
+}
+
+
+.Cadastro{
+    text-decoration: none;
+    color:#2c3462; 
+    font-size: inherit; 
+    font-weight: normal;
+    cursor: text; 
+}
+
+.Cadastro{
+
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30%;
+    cursor: pointer;
+}
+
+
+
+.texto, .Cadastro {
+    display: flex;
+    margin-right: 5px;
+    flex-direction: column;
+    width: 100%;    
+    align-items: center;
+    justify-content: center;
+    padding: 0.5%;
+}

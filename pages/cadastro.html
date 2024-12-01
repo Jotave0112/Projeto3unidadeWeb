@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/registro.css">
+  <title>Cadastro</title>
+</head>
+<body>
+  <div class="Background ">
+
+    
+    <h1 class="Cadastro">Cadastro</h1>
+    
+    <form id="register-form" onsubmit="registro(event)">
+    
+      <label class="label">Nome:</label>
+      <input type="text" id="register-name" placeholder="Nome" required />
+      
+      <label class="label">E-mail:</label>
+      <input type="email" id="register-email" placeholder="E-mail" required />
+      
+      <label class="label">Senha:</label>
+      <input type="password" id="register-senha" placeholder="Senha" required />
+      
+      <label for="animes" class="anime">Animes Favoritos:</label>
+      <select name="anime_preference" class="form-control" id="anime_preference" multiple></select>
+      
+    
+      <button class="button" type="submit">Cadastrar</button>
+    
+    </form>
+    
+    <div class="actions">
+      
+      <p class="texto">Voltar para o login</p>
+      <a type="text" href="login.html" class="cadastro">Login</a>
+    
+    </div>
+  
+  </div>
+
+  <script src="../js/registro.js"></script>
+</body>
+</html>
